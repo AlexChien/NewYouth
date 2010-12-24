@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<result>5</result>
+	<row>
+		<id>1</id>
+		<uid><![CDATA[sdj]]></uid>
+		<content><![CDATA[abcd1 中文]]></content>
+	</row>
+	<row>
+		<id>2</id>
+		<uid><![CDATA[johnson]]></uid>
+		<content><![CDATA[abcd2 中文]]></content>
+	</row>
+	<row>
+		<id>3</id>
+		<uid><![CDATA[alex]]></uid>
+		<content><![CDATA[abcd2 中文]]></content>
+	</row>
+	<row>
+		<id>4</id>
+		<uid><![CDATA[fred]]></uid>
+		<content><![CDATA[abcd3 中文]]></content>
+	</row>
+	<row>
+		<id>5</id>
+		<uid><![CDATA[jjicetea]]></uid>
+		<content><![CDATA[abcd5 中文]]></content>
+	</row>
+</data>
