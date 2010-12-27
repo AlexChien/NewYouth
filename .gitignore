@@ -1,0 +1,41 @@
+tmp/*
+log/*
+.project
+.idea
+。metadata/*
+_notes/*
+_notes
+Thumbs.db
+db/*.sqlite3
+
+# sphinx related conf and/or data files
+db/sphinx/*
+db/sphinx/**/*
+config/*.sphinx.conf
+
+# public/interface/*
+public/interface/**/*
+
+# db/schema.rb
+# user uploaded assets
+public/images/assets
+public/images/assets/**/*
+db/schema.rb
+db/wurfl
+
+#config/environments/production.rb
+config/database.yml
+
+public/flv/**/*.flv
+public/public/*
+*.fla
+*.swd
+*.LCK
+_compareTemp
+.tmp_*
+*.flv
+*.headers
+*.tmp
+_vti_pvt/*
+
+bk

@@ -1,0 +1,18 @@
+<p>
+  <b>Text:</b>
+  <%=h @status.text %>
+</p>
+
+<p>
+  <b>Screen name:</b>
+  <%=h @status.screen_name %>
+</p>
+
+<p>
+  <b>Name:</b>
+  <%=h @status.name %>
+</p>
+
+
+<%= link_to 'Edit', edit_status_path(@status) %> |
+<%= link_to 'Back', statuses_path %>

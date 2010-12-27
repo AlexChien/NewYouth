@@ -1,0 +1,24 @@
+<h1>Editing status</h1>
+
+<% form_for(@status) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :text %><br />
+    <%= f.text_field :text %>
+  </p>
+  <p>
+    <%= f.label :screen_name %><br />
+    <%= f.text_field :screen_name %>
+  </p>
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @status %> |
+<%= link_to 'Back', statuses_path %>
