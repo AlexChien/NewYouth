@@ -2,14 +2,19 @@ class StatusesController < ApplicationController
   # GET /statuses
   # GET /statuses.xml
   def index
-    # @statuses = Status.all
-    @statuses = RemoteStatus.all
-
+    @statuses = Status.all(:order => "id desc")
+    # @statuses = RemoteStatus.all
     respond_to do |format|
       format.html # index.html.erb
       format.xml  { render :xml => @statuses }
     end
   end
+
+  def refresh
+    @statuses = Status.all(:order => "id desc")
+    redirect_to '/'
+  end
+
 
   # GET /statuses/1
   # GET /statuses/1.xml
@@ -58,13 +63,20 @@ class StatusesController < ApplicationController
   # PUT /statuses/1.xml
   def update
     @status = Status.find(params[:id])
-
+    @status.state = 'sent'
+    @status.save
+    Feed.create(
+      :user => @status.screen_name,
+      :content => @status.text
+    )
     respond_to do |format|
       if @status.update_attributes(params[:status])
-        format.html { redirect_to(@status, :notice => 'Status was successfully updated.') }
+        # format.html { redirect_to(@status, :notice => 'Status was successfully updated.') }
+        format.html { redirect_to('/', :notice => "Status  #{@status.text} was successfully sent to screen.") }
         format.xml  { head :ok }
       else
-        format.html { render :action => "edit" }
+        # format.html { render :action => "edit" }
+        format.html { redirect_to('/', :error => "Status #{@status.text} sent to screen fail.") }
         format.xml  { render :xml => @status.errors, :status => :unprocessable_entity }
       end
     end

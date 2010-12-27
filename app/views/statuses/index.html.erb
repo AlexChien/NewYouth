@@ -1,24 +1,18 @@
 <h1>Listing statuses</h1>
 
-<table>
-  <tr>
-    <th>Screen name</th>    
-    <th>Text</th>
-    <th>Created Time</th>
-  </tr>
+<%= link_to 'Refresh', "/statuses/refresh" %> 手工抓取微博内容
 
-<% @statuses.each do |status| %>
-  <tr>
-    <td><%=h status["user"]["screen_name"] %></td>    
-    <td><%=h status["text"] %></td>
-    <td><%=h status["created_at"] %></td>
-    <td><%= link_to 'Show', status %></td>
-    <td><%= link_to 'Edit', edit_status_path(status) %></td>
-    <td><%= link_to 'Destroy', status, :confirm => 'Are you sure?', :method => :delete %></td>
-  </tr>
-<% end %>
-</table>
+<div id="status_table">
+  <%= render :partial => "status_table" %>
+</div>
 
 <br />
 
-<%= link_to 'Refresh', "javascript://location.reload();" %>
+<script type="text/javascript" charset="utf-8">
+function myrefresh(){
+  location.reload();
+  // alert("test");
+}
+
+// setTimeout(myrefresh,6000); //指定6秒刷新一次  
+</script>

@@ -1,9 +1,11 @@
 class FeedsController < ApplicationController
   # GET /feeds
   # GET /feeds.xml
-  def index
-    @feeds = Feed.all
-
+  def index  
+    if params[:id]
+      Feed.connection.execute("delete from feeds where id <= #{params[:id]};")
+    end
+    @feeds = Feed.all(:limit => 20)
     respond_to do |format|
       format.html # index.html.erb
       # format.xml  { render :xml => @feeds }

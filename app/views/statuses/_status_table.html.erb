@@ -1,0 +1,29 @@
+<table>
+  <tr>
+    <th>Screen name</th>    
+    <th>Text</th>
+    <th>Created Time</th>
+    <th></th>
+  </tr>
+
+<% @statuses.each do |status| %>
+  <tr>
+    <% if false %>
+    <td><%#=h status["user"]["screen_name"] %></td>    
+    <td><%#=h status["text"] %></td>
+    <td><%#=h status["created_at"] %></td>
+    <% end %>
+    <td><%=h status.screen_name %></td>    
+    <td><%=h status.text %></td>
+    <td><%=h status.created_at.to_s(:db) %></td>
+    <!-- <td><%#= link_to 'Show', status %></td> -->
+    <!-- <td><%#= link_to 'Edit', edit_status_path(status.id) %></td> -->
+    <% unless status.state %>
+      <td><%= link_to 'Send To Screen', status_path(status.id), :method => :put %></td>
+    <% else %>
+      <td>Sent</td>
+    <% end %>
+    <!-- <td><%#= link_to 'Destroy', status, :confirm => 'Are you sure?', :method => :delete %></td> -->
+  </tr>
+<% end %>
+</table>

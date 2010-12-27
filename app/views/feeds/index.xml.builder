@@ -5,7 +5,7 @@ xml.data do
   xml.result(@feeds.count)
   items.each do |row|
      xml.id(row.id)
-     xml.uid!("<![CDATA["+row.user+"]]>")
+     xml.uid("<![CDATA["+row.user+"]]>")
      xml.content("<![CDATA["+row.content+"]]>")
   end
 end

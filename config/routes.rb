@@ -20,7 +20,7 @@ ActionController::Routing::Routes.draw do |map|
 
   map.resources :feeds
 
-  map.resources :statuses
+  map.resources :statuses, :collection => { :refresh  => :get}
 
   # map.root :controller => "feeds"
   map.root :controller => "statuses"
