@@ -1,0 +1,1081 @@
+<!-- 
+
+https://stainless:asd123abc@api.t.sina.com.cn/statuses/home_timeline.xml?source=1847941150
+
+ -->
+
+<?xml version="1.0" encoding="UTF-8"?><statuses>
+  <status>
+    <created_at>Fri Dec 24 15:32:18 +0800 2010</created_at>
+    <id>4687918533</id>
+    <text>過南京長江大橋 看看江對岸林立的化工廠煙囪 相當於全國煙民站在江邊集體打邊爐</text>
+    <source>
+      <a href="http://t.sina.com.cn">新浪微博</a>
+    </source>
+    <favorited>false</favorited>
+    <truncated>false</truncated>
+    <geo/>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <user>
+      <id>1191258655</id>
+      <screen_name>沈宏非</screen_name>
+      <name>沈宏非</name>
+      <province>31</province>
+      <city>1000</city>
+      <location>上海</location>
+      <description></description>
+      <url>http://blog.sina.com.cn/shenhongfei</url>
+      <profile_image_url>http://tp4.sinaimg.cn/1191258655/50/1291268110/1</profile_image_url>
+      <domain>shenhongfei</domain>
+      <gender>m</gender>
+      <followers_count>357055</followers_count>
+      <friends_count>298</friends_count>
+      <statuses_count>1778</statuses_count>
+      <favourites_count>109</favourites_count>
+      <created_at>Fri Aug 28 00:00:00 +0800 2009</created_at>
+      <following>false</following>
+      <verified>true</verified>
+      <allow_all_act_msg>true</allow_all_act_msg>
+      <geo_enabled>true</geo_enabled>
+    </user>
+    <retweeted_status>
+      <created_at>Fri Dec 24 07:48:03 +0800 2010</created_at>
+      <id>4677920853</id>
+      <text>【史玉柱说“呼吸上海空气等于抽9支烟”，专家承认污染威力不亚于尼古丁】“上海的空气质量相当于一天抽9支烟。”史玉柱微博称，根据空气检测仪器换算如下：丽江1支、北京21支、广州25支、上海9支、南京9支。专家称这种提法并不严谨，但空气污染的“威力”确实不亚于尼古丁。http://sinaurl.cn/hb8a4n</text>
+      <source>
+        <a href="http://t.sina.com.cn">新浪微博</a>
+      </source>
+      <favorited>false</favorited>
+      <truncated>false</truncated>
+      <geo/>
+      <in_reply_to_status_id></in_reply_to_status_id>
+      <in_reply_to_user_id></in_reply_to_user_id>
+      <in_reply_to_screen_name></in_reply_to_screen_name>
+      <thumbnail_pic>http://ww4.sinaimg.cn/thumbnail/4e5b54d8jw6dcnd97is1hj.jpg</thumbnail_pic>
+      <bmiddle_pic>http://ww4.sinaimg.cn/bmiddle/4e5b54d8jw6dcnd97is1hj.jpg</bmiddle_pic>
+      <original_pic>http://ww4.sinaimg.cn/large/4e5b54d8jw6dcnd97is1hj.jpg</original_pic>
+      <user>
+        <id>1314608344</id>
+        <screen_name>新闻晨报</screen_name>
+        <name>新闻晨报</name>
+        <province>31</province>
+        <city>1000</city>
+        <location>上海</location>
+        <description>中国最大城市最有影响力的一份都市报；每天有60万读者阅读我们的报道。我们的口号是：追求最鲜活最实用的新闻！blog.sina.com.cn/shmorningpost</description>
+        <url>http://newspaper.jfdaily.com/xwcb</url>
+        <profile_image_url>http://tp1.sinaimg.cn/1314608344/50/1292944750/1</profile_image_url>
+        <domain>shmorningpost</domain>
+        <gender>m</gender>
+        <followers_count>45734</followers_count>
+        <friends_count>192</friends_count>
+        <statuses_count>1995</statuses_count>
+        <favourites_count>6</favourites_count>
+        <created_at>Fri Aug 28 00:00:00 +0800 2009</created_at>
+        <following>false</following>
+        <verified>true</verified>
+        <allow_all_act_msg>false</allow_all_act_msg>
+        <geo_enabled>true</geo_enabled>
+      </user>
+      <annotations/>
+    </retweeted_status>
+    <annotations/>
+  </status>
+  <status>
+    <created_at>Fri Dec 24 15:24:46 +0800 2010</created_at>
+    <id>4687750855</id>
+    <text>等待下班。</text>
+    <source>
+      <a href="http://splus.yuzedong.com/">Splus微博</a>
+    </source>
+    <favorited>false</favorited>
+    <truncated>false</truncated>
+    <geo/>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <user>
+      <id>1642059035</id>
+      <screen_name>Banlon</screen_name>
+      <name>Banlon</name>
+      <province>11</province>
+      <city>8</city>
+      <location>北京 海淀区</location>
+      <description>至少，在灵魂深处我永远是个设计师。</description>
+      <url>http://www.uesee.com</url>
+      <profile_image_url>http://tp4.sinaimg.cn/1642059035/50/1288676880/1</profile_image_url>
+      <domain>banlon</domain>
+      <gender>m</gender>
+      <followers_count>740</followers_count>
+      <friends_count>454</friends_count>
+      <statuses_count>1701</statuses_count>
+      <favourites_count>24</favourites_count>
+      <created_at>Wed Aug 26 00:00:00 +0800 2009</created_at>
+      <following>false</following>
+      <verified>true</verified>
+      <allow_all_act_msg>false</allow_all_act_msg>
+      <geo_enabled>true</geo_enabled>
+    </user>
+    <retweeted_status>
+      <created_at>Fri Dec 24 15:21:58 +0800 2010</created_at>
+      <id>4687688021</id>
+      <text>很好奇，大家现在都在干什么呢？</text>
+      <source>
+        <a href="http://t.sina.com.cn">新浪微博</a>
+      </source>
+      <favorited>false</favorited>
+      <truncated>false</truncated>
+      <geo/>
+      <in_reply_to_status_id></in_reply_to_status_id>
+      <in_reply_to_user_id></in_reply_to_user_id>
+      <in_reply_to_screen_name></in_reply_to_screen_name>
+      <user>
+        <id>1815601533</id>
+        <screen_name>唯一的玩具盒子</screen_name>
+        <name>唯一的玩具盒子</name>
+        <province>11</province>
+        <city>1000</city>
+        <location>北京</location>
+        <description>原版玩具盒子</description>
+        <url>http://1</url>
+        <profile_image_url>http://tp2.sinaimg.cn/1815601533/50/1291253934/0</profile_image_url>
+        <domain>realtoybox</domain>
+        <gender>f</gender>
+        <followers_count>79</followers_count>
+        <friends_count>51</friends_count>
+        <statuses_count>601</statuses_count>
+        <favourites_count>58</favourites_count>
+        <created_at>Thu Sep 09 00:00:00 +0800 2010</created_at>
+        <following>false</following>
+        <verified>false</verified>
+        <allow_all_act_msg>false</allow_all_act_msg>
+        <geo_enabled>true</geo_enabled>
+      </user>
+      <annotations/>
+    </retweeted_status>
+  </status>
+  <status>
+    <created_at>Fri Dec 24 15:21:19 +0800 2010</created_at>
+    <id>4687673251</id>
+    <text>这张照片拍摄于赌城WYNN酒店，所说背后的那些植物花掉了上亿元（还没搞清楚是元还是刀拉，估计是刀拉），当然不止这一点点，大家可以开始YY了。。。先预祝大家圣诞节快乐！我先去睡觉了！晚安~~~~~</text>
+    <source>
+      <a href="http://t.sina.com.cn">新浪微博</a>
+    </source>
+    <favorited>false</favorited>
+    <truncated>false</truncated>
+    <geo/>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <thumbnail_pic>http://ww2.sinaimg.cn/thumbnail/67b77f5djw6dcnqda4b38j.jpg</thumbnail_pic>
+    <bmiddle_pic>http://ww2.sinaimg.cn/bmiddle/67b77f5djw6dcnqda4b38j.jpg</bmiddle_pic>
+    <original_pic>http://ww2.sinaimg.cn/large/67b77f5djw6dcnqda4b38j.jpg</original_pic>
+    <user>
+      <id>1740078941</id>
+      <screen_name>小城顾氏</screen_name>
+      <name>小城顾氏</name>
+      <province>31</province>
+      <city>12</city>
+      <location>上海 闵行区</location>
+      <description>有着北方大女人情节的南方小女人……</description>
+      <url>http://blog.sina.com.cn/kikkigu</url>
+      <profile_image_url>http://tp2.sinaimg.cn/1740078941/50/1291469276/0</profile_image_url>
+      <domain></domain>
+      <gender>f</gender>
+      <followers_count>11656</followers_count>
+      <friends_count>101</friends_count>
+      <statuses_count>1035</statuses_count>
+      <favourites_count>3</favourites_count>
+      <created_at>Mon May 10 00:00:00 +0800 2010</created_at>
+      <following>false</following>
+      <verified>true</verified>
+      <allow_all_act_msg>false</allow_all_act_msg>
+      <geo_enabled>true</geo_enabled>
+    </user>
+    <annotations/>
+  </status>
+  <status>
+    <created_at>Fri Dec 24 15:21:15 +0800 2010</created_at>
+    <id>4687671747</id>
+    <text>有@xx1944 喂我吃饭，真好！幸福死了！</text>
+    <source>
+      <a href="http://t.sina.com.cn/mobile/iphone.php">iPhone客户端</a>
+    </source>
+    <favorited>false</favorited>
+    <truncated>false</truncated>
+    <geo/>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <user>
+      <id>1713235653</id>
+      <screen_name>玲小尔</screen_name>
+      <name>玲小尔</name>
+      <province>31</province>
+      <city>10</city>
+      <location>上海 杨浦区</location>
+      <description>80后‖典型双子女‖重度网络依赖症‖双重性格‖话痨‖恋物癖‖女权主义‖求真心FO</description>
+      <url>http://1</url>
+      <profile_image_url>http://tp2.sinaimg.cn/1713235653/50/1284974108/0</profile_image_url>
+      <domain></domain>
+      <gender>f</gender>
+      <followers_count>102</followers_count>
+      <friends_count>213</friends_count>
+      <statuses_count>1328</statuses_count>
+      <favourites_count>5</favourites_count>
+      <created_at>Wed Mar 17 00:00:00 +0800 2010</created_at>
+      <following>false</following>
+      <verified>false</verified>
+      <allow_all_act_msg>false</allow_all_act_msg>
+      <geo_enabled>true</geo_enabled>
+    </user>
+    <retweeted_status>
+      <created_at>Fri Dec 24 15:18:25 +0800 2010</created_at>
+      <id>4687608533</id>
+      <text>终于找到地方吃饭了</text>
+      <source>
+        <a href="http://t.sina.com.cn/mobile/wap.php">新浪微博手机版</a>
+      </source>
+      <favorited>false</favorited>
+      <truncated>false</truncated>
+      <geo/>
+      <in_reply_to_status_id></in_reply_to_status_id>
+      <in_reply_to_user_id></in_reply_to_user_id>
+      <in_reply_to_screen_name></in_reply_to_screen_name>
+      <thumbnail_pic>http://ww2.sinaimg.cn/thumbnail/6d0b9859jw6dcnqas2hhrj.jpg</thumbnail_pic>
+      <bmiddle_pic>http://ww2.sinaimg.cn/bmiddle/6d0b9859jw6dcnqas2hhrj.jpg</bmiddle_pic>
+      <original_pic>http://ww2.sinaimg.cn/large/6d0b9859jw6dcnqas2hhrj.jpg</original_pic>
+      <user>
+        <id>1829476441</id>
+        <screen_name>redapple07</screen_name>
+        <name>redapple07</name>
+        <province>31</province>
+        <city>9</city>
+        <location>上海 虹口区</location>
+        <description></description>
+        <url>http://1</url>
+        <profile_image_url>http://tp2.sinaimg.cn/1829476441/50/1291603212/0</profile_image_url>
+        <domain>redapple07</domain>
+        <gender>f</gender>
+        <followers_count>101</followers_count>
+        <friends_count>149</friends_count>
+        <statuses_count>598</statuses_count>
+        <favourites_count>2</favourites_count>
+        <created_at>Wed Oct 13 00:00:00 +0800 2010</created_at>
+        <following>false</following>
+        <verified>false</verified>
+        <allow_all_act_msg>false</allow_all_act_msg>
+        <geo_enabled>true</geo_enabled>
+      </user>
+      <annotations/>
+    </retweeted_status>
+    <annotations/>
+  </status>
+  <status>
+    <created_at>Fri Dec 24 15:21:13 +0800 2010</created_at>
+    <id>4687671055</id>
+    <text>挺喜庆。</text>
+    <source>
+      <a href="http://splus.yuzedong.com/">Splus微博</a>
+    </source>
+    <favorited>false</favorited>
+    <truncated>false</truncated>
+    <geo/>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <user>
+      <id>1642059035</id>
+      <screen_name>Banlon</screen_name>
+      <name>Banlon</name>
+      <province>11</province>
+      <city>8</city>
+      <location>北京 海淀区</location>
+      <description>至少，在灵魂深处我永远是个设计师。</description>
+      <url>http://www.uesee.com</url>
+      <profile_image_url>http://tp4.sinaimg.cn/1642059035/50/1288676880/1</profile_image_url>
+      <domain>banlon</domain>
+      <gender>m</gender>
+      <followers_count>740</followers_count>
+      <friends_count>454</friends_count>
+      <statuses_count>1700</statuses_count>
+      <favourites_count>24</favourites_count>
+      <created_at>Wed Aug 26 00:00:00 +0800 2009</created_at>
+      <following>false</following>
+      <verified>true</verified>
+      <allow_all_act_msg>false</allow_all_act_msg>
+      <geo_enabled>true</geo_enabled>
+    </user>
+    <retweeted_status>
+      <created_at>Fri Dec 24 15:20:42 +0800 2010</created_at>
+      <id>4687660279</id>
+      <text>MIUI官方论坛圣诞节xmas主题壁纸铃声汇总 http://sinaurl.cn/hbkrNY</text>
+      <source>
+        <a href="http://t.sina.com.cn">新浪微博</a>
+      </source>
+      <favorited>false</favorited>
+      <truncated>false</truncated>
+      <geo/>
+      <in_reply_to_status_id></in_reply_to_status_id>
+      <in_reply_to_user_id></in_reply_to_user_id>
+      <in_reply_to_screen_name></in_reply_to_screen_name>
+      <thumbnail_pic>http://ww2.sinaimg.cn/thumbnail/6a815515jw6dcnqd4s4tqj.jpg</thumbnail_pic>
+      <bmiddle_pic>http://ww2.sinaimg.cn/bmiddle/6a815515jw6dcnqd4s4tqj.jpg</bmiddle_pic>
+      <original_pic>http://ww2.sinaimg.cn/large/6a815515jw6dcnqd4s4tqj.jpg</original_pic>
+      <user>
+        <id>1786860821</id>
+        <screen_name>MIUI_ROM</screen_name>
+        <name>MIUI_ROM</name>
+        <province>11</province>
+        <city>1000</city>
+        <location>北京</location>
+        <description>基于Android2.2原生系统深度开发，每周五自动更新；致力拥有智能手机中最好用的电话及短信使用体验；针对中国用户使用习惯，原创特色的UI体系。</description>
+        <url>http://www.miui.com/index.php</url>
+        <profile_image_url>http://tp2.sinaimg.cn/1786860821/50/1292917639/1</profile_image_url>
+        <domain>miui</domain>
+        <gender>m</gender>
+        <followers_count>5317</followers_count>
+        <friends_count>133</friends_count>
+        <statuses_count>291</statuses_count>
+        <favourites_count>9</favourites_count>
+        <created_at>Wed Aug 04 00:00:00 +0800 2010</created_at>
+        <following>false</following>
+        <verified>true</verified>
+        <allow_all_act_msg>false</allow_all_act_msg>
+        <geo_enabled>false</geo_enabled>
+      </user>
+      <annotations/>
+    </retweeted_status>
+  </status>
+  <status>
+    <created_at>Fri Dec 24 15:19:46 +0800 2010</created_at>
+    <id>4687638553</id>
+    <text>餐后消遣：单宁狠重的红酒配莫札特，在杨公馆过节是有多高雅。</text>
+    <source>
+      <a href="http://t.sina.com.cn/mobile/msg.php">彩信</a>
+    </source>
+    <favorited>false</favorited>
+    <truncated>false</truncated>
+    <geo/>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <thumbnail_pic>http://ww3.sinaimg.cn/thumbnail/645acac3jw6dcnqc6tbfoj.jpg</thumbnail_pic>
+    <bmiddle_pic>http://ww3.sinaimg.cn/bmiddle/645acac3jw6dcnqc6tbfoj.jpg</bmiddle_pic>
+    <original_pic>http://ww3.sinaimg.cn/large/645acac3jw6dcnqc6tbfoj.jpg</original_pic>
+    <user>
+      <id>1683671747</id>
+      <screen_name>兔子咖啡催眠药</screen_name>
+      <name>兔子咖啡催眠药</name>
+      <province>31</province>
+      <city>4</city>
+      <location>上海 徐汇区</location>
+      <description></description>
+      <url>http://1</url>
+      <profile_image_url>http://tp4.sinaimg.cn/1683671747/50/1277559496/0</profile_image_url>
+      <domain>ziziwang</domain>
+      <gender>f</gender>
+      <followers_count>137</followers_count>
+      <friends_count>89</friends_count>
+      <statuses_count>351</statuses_count>
+      <favourites_count>46</favourites_count>
+      <created_at>Mon Jan 18 00:00:00 +0800 2010</created_at>
+      <following>false</following>
+      <verified>false</verified>
+      <allow_all_act_msg>false</allow_all_act_msg>
+      <geo_enabled>true</geo_enabled>
+    </user>
+    <annotations/>
+  </status>
+  <status>
+    <created_at>Fri Dec 24 15:19:08 +0800 2010</created_at>
+    <id>4687624131</id>
+    <text>回家试试。</text>
+    <source>
+      <a href="http://splus.yuzedong.com/">Splus微博</a>
+    </source>
+    <favorited>false</favorited>
+    <truncated>false</truncated>
+    <geo/>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <user>
+      <id>1642059035</id>
+      <screen_name>Banlon</screen_name>
+      <name>Banlon</name>
+      <province>11</province>
+      <city>8</city>
+      <location>北京 海淀区</location>
+      <description>至少，在灵魂深处我永远是个设计师。</description>
+      <url>http://www.uesee.com</url>
+      <profile_image_url>http://tp4.sinaimg.cn/1642059035/50/1288676880/1</profile_image_url>
+      <domain>banlon</domain>
+      <gender>m</gender>
+      <followers_count>738</followers_count>
+      <friends_count>454</friends_count>
+      <statuses_count>1699</statuses_count>
+      <favourites_count>24</favourites_count>
+      <created_at>Wed Aug 26 00:00:00 +0800 2009</created_at>
+      <following>false</following>
+      <verified>true</verified>
+      <allow_all_act_msg>false</allow_all_act_msg>
+      <geo_enabled>true</geo_enabled>
+    </user>
+    <retweeted_status>
+      <created_at>Fri Dec 24 15:18:15 +0800 2010</created_at>
+      <id>4687604553</id>
+      <text>原来是这样练出腹肌的[嘻嘻]</text>
+      <source>
+        <a href="http://t.sina.com.cn">新浪微博</a>
+      </source>
+      <favorited>false</favorited>
+      <truncated>false</truncated>
+      <geo/>
+      <in_reply_to_status_id></in_reply_to_status_id>
+      <in_reply_to_user_id></in_reply_to_user_id>
+      <in_reply_to_screen_name></in_reply_to_screen_name>
+      <thumbnail_pic>http://ww4.sinaimg.cn/thumbnail/620b2c91jw6dcnqa786woj.jpg</thumbnail_pic>
+      <bmiddle_pic>http://ww4.sinaimg.cn/bmiddle/620b2c91jw6dcnqa786woj.jpg</bmiddle_pic>
+      <original_pic>http://ww4.sinaimg.cn/large/620b2c91jw6dcnqa786woj.jpg</original_pic>
+      <user>
+        <id>1644899473</id>
+        <screen_name>忧郁的蓝</screen_name>
+        <name>忧郁的蓝</name>
+        <province>11</province>
+        <city>8</city>
+        <location>北京 海淀区</location>
+        <description></description>
+        <url></url>
+        <profile_image_url>http://tp2.sinaimg.cn/1644899473/50/1292225600/1</profile_image_url>
+        <domain>litaolitao</domain>
+        <gender>m</gender>
+        <followers_count>43</followers_count>
+        <friends_count>44</friends_count>
+        <statuses_count>168</statuses_count>
+        <favourites_count>1</favourites_count>
+        <created_at>Fri Sep 04 00:00:00 +0800 2009</created_at>
+        <following>false</following>
+        <verified>false</verified>
+        <allow_all_act_msg>false</allow_all_act_msg>
+        <geo_enabled>true</geo_enabled>
+      </user>
+      <annotations/>
+    </retweeted_status>
+  </status>
+  <status>
+    <created_at>Fri Dec 24 15:18:25 +0800 2010</created_at>
+    <id>4687608533</id>
+    <text>终于找到地方吃饭了</text>
+    <source>
+      <a href="http://t.sina.com.cn/mobile/wap.php">新浪微博手机版</a>
+    </source>
+    <favorited>false</favorited>
+    <truncated>false</truncated>
+    <geo/>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <thumbnail_pic>http://ww2.sinaimg.cn/thumbnail/6d0b9859jw6dcnqas2hhrj.jpg</thumbnail_pic>
+    <bmiddle_pic>http://ww2.sinaimg.cn/bmiddle/6d0b9859jw6dcnqas2hhrj.jpg</bmiddle_pic>
+    <original_pic>http://ww2.sinaimg.cn/large/6d0b9859jw6dcnqas2hhrj.jpg</original_pic>
+    <user>
+      <id>1829476441</id>
+      <screen_name>redapple07</screen_name>
+      <name>redapple07</name>
+      <province>31</province>
+      <city>9</city>
+      <location>上海 虹口区</location>
+      <description></description>
+      <url>http://1</url>
+      <profile_image_url>http://tp2.sinaimg.cn/1829476441/50/1291603212/0</profile_image_url>
+      <domain>redapple07</domain>
+      <gender>f</gender>
+      <followers_count>101</followers_count>
+      <friends_count>149</friends_count>
+      <statuses_count>598</statuses_count>
+      <favourites_count>2</favourites_count>
+      <created_at>Wed Oct 13 00:00:00 +0800 2010</created_at>
+      <following>false</following>
+      <verified>false</verified>
+      <allow_all_act_msg>false</allow_all_act_msg>
+      <geo_enabled>true</geo_enabled>
+    </user>
+    <annotations/>
+  </status>
+  <status>
+    <created_at>Fri Dec 24 15:17:54 +0800 2010</created_at>
+    <id>4687597003</id>
+    <text>我在重庆德庄火锅(一品天下店)。与 @柚子55 在一起。我在这... http://sinaurl.cn/hbFy0D</text>
+    <source>
+      <a href="http://jiepang.com/?utm_source=weibo&amp;amp;utm_medium=social&amp;amp;utm_content=record_share&amp;amp;utm_campaign=appname_link">街旁网分享足迹</a>
+    </source>
+    <favorited>false</favorited>
+    <truncated>false</truncated>
+    <geo xmlns:georss="http://www.georss.org/georss">
+      <georss:point>30.6906509399 104.021873474</georss:point>
+    </geo>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <user>
+      <id>1713235653</id>
+      <screen_name>玲小尔</screen_name>
+      <name>玲小尔</name>
+      <province>31</province>
+      <city>10</city>
+      <location>上海 杨浦区</location>
+      <description>80后‖典型双子女‖重度网络依赖症‖双重性格‖话痨‖恋物癖‖女权主义‖求真心FO</description>
+      <url>http://1</url>
+      <profile_image_url>http://tp2.sinaimg.cn/1713235653/50/1284974108/0</profile_image_url>
+      <domain></domain>
+      <gender>f</gender>
+      <followers_count>102</followers_count>
+      <friends_count>213</friends_count>
+      <statuses_count>1327</statuses_count>
+      <favourites_count>5</favourites_count>
+      <created_at>Wed Mar 17 00:00:00 +0800 2010</created_at>
+      <following>false</following>
+      <verified>false</verified>
+      <allow_all_act_msg>false</allow_all_act_msg>
+      <geo_enabled>true</geo_enabled>
+    </user>
+  </status>
+  <status>
+    <created_at>Fri Dec 24 15:17:48 +0800 2010</created_at>
+    <id>4687594775</id>
+    <text>今天的最后2张照片！加州的阳光照暖了我的心，希望把笑容与欢乐传递给大家。。。</text>
+    <source>
+      <a href="http://t.sina.com.cn">新浪微博</a>
+    </source>
+    <favorited>false</favorited>
+    <truncated>false</truncated>
+    <geo/>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <thumbnail_pic>http://ww3.sinaimg.cn/thumbnail/67b77f5djw6dcnq9vg9ipj.jpg</thumbnail_pic>
+    <bmiddle_pic>http://ww3.sinaimg.cn/bmiddle/67b77f5djw6dcnq9vg9ipj.jpg</bmiddle_pic>
+    <original_pic>http://ww3.sinaimg.cn/large/67b77f5djw6dcnq9vg9ipj.jpg</original_pic>
+    <user>
+      <id>1740078941</id>
+      <screen_name>小城顾氏</screen_name>
+      <name>小城顾氏</name>
+      <province>31</province>
+      <city>12</city>
+      <location>上海 闵行区</location>
+      <description>有着北方大女人情节的南方小女人……</description>
+      <url>http://blog.sina.com.cn/kikkigu</url>
+      <profile_image_url>http://tp2.sinaimg.cn/1740078941/50/1291469276/0</profile_image_url>
+      <domain></domain>
+      <gender>f</gender>
+      <followers_count>11656</followers_count>
+      <friends_count>101</friends_count>
+      <statuses_count>1034</statuses_count>
+      <favourites_count>3</favourites_count>
+      <created_at>Mon May 10 00:00:00 +0800 2010</created_at>
+      <following>false</following>
+      <verified>true</verified>
+      <allow_all_act_msg>false</allow_all_act_msg>
+      <geo_enabled>true</geo_enabled>
+    </user>
+    <annotations/>
+  </status>
+  <status>
+    <created_at>Fri Dec 24 15:17:47 +0800 2010</created_at>
+    <id>4687594685</id>
+    <text>我在重庆德庄火锅(一品天下店)。http://sinaurl.cn/hbtxAo</text>
+    <source>
+      <a href="http://jiepang.com/?utm_source=weibo&amp;amp;utm_medium=social&amp;amp;utm_content=record_share&amp;amp;utm_campaign=appname_link">街旁网分享足迹</a>
+    </source>
+    <favorited>false</favorited>
+    <truncated>false</truncated>
+    <geo xmlns:georss="http://www.georss.org/georss">
+      <georss:point>30.6906509399 104.021873474</georss:point>
+    </geo>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <user>
+      <id>1750944300</id>
+      <screen_name>柚子55</screen_name>
+      <name>柚子55</name>
+      <province>31</province>
+      <city>14</city>
+      <location>上海 嘉定区</location>
+      <description></description>
+      <url>http://blog.sina.com.cn/janeho55</url>
+      <profile_image_url>http://tp1.sinaimg.cn/1750944300/50/1277669992/0</profile_image_url>
+      <domain></domain>
+      <gender>f</gender>
+      <followers_count>62</followers_count>
+      <friends_count>73</friends_count>
+      <statuses_count>726</statuses_count>
+      <favourites_count>1</favourites_count>
+      <created_at>Sat Jun 05 00:00:00 +0800 2010</created_at>
+      <following>false</following>
+      <verified>false</verified>
+      <allow_all_act_msg>false</allow_all_act_msg>
+      <geo_enabled>true</geo_enabled>
+    </user>
+  </status>
+  <status>
+    <created_at>Fri Dec 24 15:17:23 +0800 2010</created_at>
+    <id>4687585609</id>
+    <text>//@壹恒:[呵呵] 2011 年 1 月 6 日上午 9 点，" IBM Rational软件开发网络高峰论坛 ”</text>
+    <source>
+      <a href="http://t.sina.com.cn">新浪微博</a>
+    </source>
+    <favorited>false</favorited>
+    <truncated>false</truncated>
+    <geo/>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <user>
+      <id>1500998893</id>
+      <screen_name>IT客</screen_name>
+      <name>IT客</name>
+      <province>11</province>
+      <city>1000</city>
+      <location>北京</location>
+      <description>On Demand！</description>
+      <url>http://blog.sina.com.cn/iterchina</url>
+      <profile_image_url>http://tp2.sinaimg.cn/1500998893/50/1292378595/1</profile_image_url>
+      <domain>iterchina</domain>
+      <gender>m</gender>
+      <followers_count>1880</followers_count>
+      <friends_count>2000</friends_count>
+      <statuses_count>492</statuses_count>
+      <favourites_count>0</favourites_count>
+      <created_at>Fri Aug 28 00:00:00 +0800 2009</created_at>
+      <following>false</following>
+      <verified>true</verified>
+      <allow_all_act_msg>false</allow_all_act_msg>
+      <geo_enabled>true</geo_enabled>
+    </user>
+    <retweeted_status>
+      <created_at>Fri Dec 24 12:05:20 +0800 2010</created_at>
+      <id>4683020597</id>
+      <text>转：IBM奖品白送啦，现在就注册2011年1月6日举办的IBM Rational 在线人才交流会就有超值礼品相赠。另外，关注@Rational开发者大会，并回答一道简单的问题，就有机会得到一款IBM经典款男士手表。Question：明年1月6日的会议神马时候开始呢？悄悄的~~~，这里有答案哦 http://sinaurl.cn/hborsO</text>
+      <source>
+        <a href="http://t.sina.com.cn">新浪微博</a>
+      </source>
+      <favorited>false</favorited>
+      <truncated>false</truncated>
+      <geo/>
+      <in_reply_to_status_id></in_reply_to_status_id>
+      <in_reply_to_user_id></in_reply_to_user_id>
+      <in_reply_to_screen_name></in_reply_to_screen_name>
+      <thumbnail_pic>http://ww3.sinaimg.cn/thumbnail/4165f919jw6dcnkprlil7j.jpg</thumbnail_pic>
+      <bmiddle_pic>http://ww3.sinaimg.cn/bmiddle/4165f919jw6dcnkprlil7j.jpg</bmiddle_pic>
+      <original_pic>http://ww3.sinaimg.cn/large/4165f919jw6dcnkprlil7j.jpg</original_pic>
+      <user>
+        <id>1097201945</id>
+        <screen_name>汪涵V</screen_name>
+        <name>汪涵V</name>
+        <province>43</province>
+        <city>1</city>
+        <location>湖南 长沙</location>
+        <description>叫汪涵V有深意 亦为微博涵流席 涵亲又一欢聚地 不带V来自奋蹄。 ——为自己喜欢的人留名 特别的爱送给所爱之人</description>
+        <url>http://tieba.baidu.com/f?kw=%CD%F4%BA%AD</url>
+        <profile_image_url>http://tp2.sinaimg.cn/1097201945/50/1285644382/1</profile_image_url>
+        <domain>jicuitangyishu</domain>
+        <gender>m</gender>
+        <followers_count>345222</followers_count>
+        <friends_count>832</friends_count>
+        <statuses_count>1536</statuses_count>
+        <favourites_count>146</favourites_count>
+        <created_at>Thu Dec 31 00:00:00 +0800 2009</created_at>
+        <following>false</following>
+        <verified>false</verified>
+        <allow_all_act_msg>false</allow_all_act_msg>
+        <geo_enabled>true</geo_enabled>
+      </user>
+      <annotations/>
+    </retweeted_status>
+    <annotations/>
+  </status>
+  <status>
+    <created_at>Fri Dec 24 15:17:09 +0800 2010</created_at>
+    <id>4687580397</id>
+    <text>转发微博。</text>
+    <source>
+      <a href="http://t.sina.com.cn">新浪微博</a>
+    </source>
+    <favorited>false</favorited>
+    <truncated>false</truncated>
+    <geo/>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <user>
+      <id>1500998893</id>
+      <screen_name>IT客</screen_name>
+      <name>IT客</name>
+      <province>11</province>
+      <city>1000</city>
+      <location>北京</location>
+      <description>On Demand！</description>
+      <url>http://blog.sina.com.cn/iterchina</url>
+      <profile_image_url>http://tp2.sinaimg.cn/1500998893/50/1292378595/1</profile_image_url>
+      <domain>iterchina</domain>
+      <gender>m</gender>
+      <followers_count>1880</followers_count>
+      <friends_count>2000</friends_count>
+      <statuses_count>491</statuses_count>
+      <favourites_count>0</favourites_count>
+      <created_at>Fri Aug 28 00:00:00 +0800 2009</created_at>
+      <following>false</following>
+      <verified>true</verified>
+      <allow_all_act_msg>false</allow_all_act_msg>
+      <geo_enabled>true</geo_enabled>
+    </user>
+    <retweeted_status>
+      <created_at>Fri Dec 24 15:10:44 +0800 2010</created_at>
+      <id>4687436711</id>
+      <text>IBM實驗室發表對未來5年的5大創新： 1.你不需要成為科學家來拯救地球 2.3D行動電話 3.空氣動力電池 4.回收電腦中央處理器的熱能提供辦公室或居家熱水 5.個人化通勤，找出每日通勤的最佳路徑</text>
+      <source>
+        <a href="http://t.sina.com.cn">新浪微博</a>
+      </source>
+      <favorited>false</favorited>
+      <truncated>false</truncated>
+      <geo/>
+      <in_reply_to_status_id></in_reply_to_status_id>
+      <in_reply_to_user_id></in_reply_to_user_id>
+      <in_reply_to_screen_name></in_reply_to_screen_name>
+      <user>
+        <id>1903073234</id>
+        <screen_name>邊境數位科技</screen_name>
+        <name>邊境數位科技</name>
+        <province>71</province>
+        <city>1</city>
+        <location>台湾 台北</location>
+        <description>真正的網路應用策略是以不改變人們的需求思考邏輯為出發點，將想法透過網路商業化包裝，以創新的數位技術運行在網路平台</description>
+        <url>http://www.linkinedge.com</url>
+        <profile_image_url>http://tp3.sinaimg.cn/1903073234/50/1293013959/1</profile_image_url>
+        <domain>linkinedge</domain>
+        <gender>m</gender>
+        <followers_count>8</followers_count>
+        <friends_count>37</friends_count>
+        <statuses_count>4</statuses_count>
+        <favourites_count>0</favourites_count>
+        <created_at>Wed Dec 22 00:00:00 +0800 2010</created_at>
+        <following>false</following>
+        <verified>false</verified>
+        <allow_all_act_msg>false</allow_all_act_msg>
+        <geo_enabled>true</geo_enabled>
+      </user>
+      <annotations/>
+    </retweeted_status>
+    <annotations/>
+  </status>
+  <status>
+    <created_at>Fri Dec 24 15:13:49 +0800 2010</created_at>
+    <id>4687505437</id>
+    <text>IBM认为，作为经济高效的商务模式，云计算的“按需计算”、“现收现付”等特性会降低信息化普及门槛，简化IT管理，有效降低企业IT基础设施成本，全面提高整个社会的信息化水平。http://sinaurl.cn/hQLIL</text>
+    <source>
+      <a href="http://t.sina.com.cn">新浪微博</a>
+    </source>
+    <favorited>false</favorited>
+    <truncated>false</truncated>
+    <geo/>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <user>
+      <id>1500998893</id>
+      <screen_name>IT客</screen_name>
+      <name>IT客</name>
+      <province>11</province>
+      <city>1000</city>
+      <location>北京</location>
+      <description>On Demand！</description>
+      <url>http://blog.sina.com.cn/iterchina</url>
+      <profile_image_url>http://tp2.sinaimg.cn/1500998893/50/1292378595/1</profile_image_url>
+      <domain>iterchina</domain>
+      <gender>m</gender>
+      <followers_count>1880</followers_count>
+      <friends_count>2000</friends_count>
+      <statuses_count>490</statuses_count>
+      <favourites_count>0</favourites_count>
+      <created_at>Fri Aug 28 00:00:00 +0800 2009</created_at>
+      <following>false</following>
+      <verified>true</verified>
+      <allow_all_act_msg>false</allow_all_act_msg>
+      <geo_enabled>true</geo_enabled>
+    </user>
+    <annotations/>
+  </status>
+  <status>
+    <created_at>Fri Dec 24 15:13:30 +0800 2010</created_at>
+    <id>4687498191</id>
+    <text>以上有太阳的照片，都是在车速80MILE飞驰的过程中所拍摄的，希望大家对我的要求不要太高，因为难度很大，机器太差，PS太烂，抖得厉害，大家看个概念就可以了。。。谢谢大家！</text>
+    <source>
+      <a href="http://t.sina.com.cn">新浪微博</a>
+    </source>
+    <favorited>false</favorited>
+    <truncated>false</truncated>
+    <geo/>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <thumbnail_pic>http://ww1.sinaimg.cn/thumbnail/67b77f5djw6dcnq5kkz2pj.jpg</thumbnail_pic>
+    <bmiddle_pic>http://ww1.sinaimg.cn/bmiddle/67b77f5djw6dcnq5kkz2pj.jpg</bmiddle_pic>
+    <original_pic>http://ww1.sinaimg.cn/large/67b77f5djw6dcnq5kkz2pj.jpg</original_pic>
+    <user>
+      <id>1740078941</id>
+      <screen_name>小城顾氏</screen_name>
+      <name>小城顾氏</name>
+      <province>31</province>
+      <city>12</city>
+      <location>上海 闵行区</location>
+      <description>有着北方大女人情节的南方小女人……</description>
+      <url>http://blog.sina.com.cn/kikkigu</url>
+      <profile_image_url>http://tp2.sinaimg.cn/1740078941/50/1291469276/0</profile_image_url>
+      <domain></domain>
+      <gender>f</gender>
+      <followers_count>11656</followers_count>
+      <friends_count>101</friends_count>
+      <statuses_count>1033</statuses_count>
+      <favourites_count>3</favourites_count>
+      <created_at>Mon May 10 00:00:00 +0800 2010</created_at>
+      <following>false</following>
+      <verified>true</verified>
+      <allow_all_act_msg>false</allow_all_act_msg>
+      <geo_enabled>true</geo_enabled>
+    </user>
+    <annotations/>
+  </status>
+  <status>
+    <created_at>Fri Dec 24 15:12:36 +0800 2010</created_at>
+    <id>4687478377</id>
+    <text>大冷天到现在饭也没吃，拖着行李在大街上走，我好悲哀…</text>
+    <source>
+      <a href="http://t.sina.com.cn/mobile/wap.php">新浪微博手机版</a>
+    </source>
+    <favorited>false</favorited>
+    <truncated>false</truncated>
+    <geo/>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <user>
+      <id>1829476441</id>
+      <screen_name>redapple07</screen_name>
+      <name>redapple07</name>
+      <province>31</province>
+      <city>9</city>
+      <location>上海 虹口区</location>
+      <description></description>
+      <url>http://1</url>
+      <profile_image_url>http://tp2.sinaimg.cn/1829476441/50/1291603212/0</profile_image_url>
+      <domain>redapple07</domain>
+      <gender>f</gender>
+      <followers_count>101</followers_count>
+      <friends_count>149</friends_count>
+      <statuses_count>597</statuses_count>
+      <favourites_count>2</favourites_count>
+      <created_at>Wed Oct 13 00:00:00 +0800 2010</created_at>
+      <following>false</following>
+      <verified>false</verified>
+      <allow_all_act_msg>false</allow_all_act_msg>
+      <geo_enabled>true</geo_enabled>
+    </user>
+    <annotations/>
+  </status>
+  <status>
+    <created_at>Fri Dec 24 15:09:52 +0800 2010</created_at>
+    <id>4687417583</id>
+    <text>【随手记】#Android软件推荐#金蝶出品。使用起来蛮方便的，比原来我用过的一些记账软件都好，尤其记一笔这样的设计，非常便利。不过他有一个相对致命的问题，如果要云端服务的话，需要付钱。所以同步代价还是比较高的。http://sinaurl.cn/hDosn</text>
+    <source>
+      <a href="http://t.sina.com.cn">新浪微博</a>
+    </source>
+    <favorited>false</favorited>
+    <truncated>false</truncated>
+    <geo/>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <thumbnail_pic>http://ww3.sinaimg.cn/thumbnail/61dfd51bjw6dcnq1uwa9uj.jpg</thumbnail_pic>
+    <bmiddle_pic>http://ww3.sinaimg.cn/bmiddle/61dfd51bjw6dcnq1uwa9uj.jpg</bmiddle_pic>
+    <original_pic>http://ww3.sinaimg.cn/large/61dfd51bjw6dcnq1uwa9uj.jpg</original_pic>
+    <user>
+      <id>1642059035</id>
+      <screen_name>Banlon</screen_name>
+      <name>Banlon</name>
+      <province>11</province>
+      <city>8</city>
+      <location>北京 海淀区</location>
+      <description>至少，在灵魂深处我永远是个设计师。</description>
+      <url>http://www.uesee.com</url>
+      <profile_image_url>http://tp4.sinaimg.cn/1642059035/50/1288676880/1</profile_image_url>
+      <domain>banlon</domain>
+      <gender>m</gender>
+      <followers_count>738</followers_count>
+      <friends_count>454</friends_count>
+      <statuses_count>1698</statuses_count>
+      <favourites_count>24</favourites_count>
+      <created_at>Wed Aug 26 00:00:00 +0800 2009</created_at>
+      <following>false</following>
+      <verified>true</verified>
+      <allow_all_act_msg>false</allow_all_act_msg>
+      <geo_enabled>true</geo_enabled>
+    </user>
+    <annotations/>
+  </status>
+  <status>
+    <created_at>Fri Dec 24 15:09:23 +0800 2010</created_at>
+    <id>4687406637</id>
+    <text>回复@天池草: 去的时候，开的是夜路，又是大雨，完全看不到。。。 //@天池草:本来就是沙漠中的城市。</text>
+    <source>
+      <a href="http://t.sina.com.cn">新浪微博</a>
+    </source>
+    <favorited>false</favorited>
+    <truncated>false</truncated>
+    <geo/>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <user>
+      <id>1740078941</id>
+      <screen_name>小城顾氏</screen_name>
+      <name>小城顾氏</name>
+      <province>31</province>
+      <city>12</city>
+      <location>上海 闵行区</location>
+      <description>有着北方大女人情节的南方小女人……</description>
+      <url>http://blog.sina.com.cn/kikkigu</url>
+      <profile_image_url>http://tp2.sinaimg.cn/1740078941/50/1291469276/0</profile_image_url>
+      <domain></domain>
+      <gender>f</gender>
+      <followers_count>11656</followers_count>
+      <friends_count>101</friends_count>
+      <statuses_count>1032</statuses_count>
+      <favourites_count>3</favourites_count>
+      <created_at>Mon May 10 00:00:00 +0800 2010</created_at>
+      <following>false</following>
+      <verified>true</verified>
+      <allow_all_act_msg>false</allow_all_act_msg>
+      <geo_enabled>true</geo_enabled>
+    </user>
+    <retweeted_status>
+      <created_at>Fri Dec 24 15:01:18 +0800 2010</created_at>
+      <id>4687230419</id>
+      <text>今天从赌城回归洛城，才发现道路2旁全是沙漠。。。</text>
+      <source>
+        <a href="http://t.sina.com.cn">新浪微博</a>
+      </source>
+      <favorited>false</favorited>
+      <truncated>false</truncated>
+      <geo/>
+      <in_reply_to_status_id></in_reply_to_status_id>
+      <in_reply_to_user_id></in_reply_to_user_id>
+      <in_reply_to_screen_name></in_reply_to_screen_name>
+      <thumbnail_pic>http://ww2.sinaimg.cn/thumbnail/67b77f5djw6dcnpstvj49j.jpg</thumbnail_pic>
+      <bmiddle_pic>http://ww2.sinaimg.cn/bmiddle/67b77f5djw6dcnpstvj49j.jpg</bmiddle_pic>
+      <original_pic>http://ww2.sinaimg.cn/large/67b77f5djw6dcnpstvj49j.jpg</original_pic>
+      <user>
+        <id>1740078941</id>
+        <screen_name>小城顾氏</screen_name>
+        <name>小城顾氏</name>
+        <province>31</province>
+        <city>12</city>
+        <location>上海 闵行区</location>
+        <description>有着北方大女人情节的南方小女人……</description>
+        <url>http://blog.sina.com.cn/kikkigu</url>
+        <profile_image_url>http://tp2.sinaimg.cn/1740078941/50/1291469276/0</profile_image_url>
+        <domain></domain>
+        <gender>f</gender>
+        <followers_count>11656</followers_count>
+        <friends_count>101</friends_count>
+        <statuses_count>1029</statuses_count>
+        <favourites_count>3</favourites_count>
+        <created_at>Mon May 10 00:00:00 +0800 2010</created_at>
+        <following>false</following>
+        <verified>true</verified>
+        <allow_all_act_msg>false</allow_all_act_msg>
+        <geo_enabled>true</geo_enabled>
+      </user>
+      <annotations/>
+    </retweeted_status>
+    <annotations/>
+  </status>
+  <status>
+    <created_at>Fri Dec 24 15:08:38 +0800 2010</created_at>
+    <id>4687390013</id>
+    <text>就是喜欢有阳光的日子！我的一米阳光！</text>
+    <source>
+      <a href="http://t.sina.com.cn">新浪微博</a>
+    </source>
+    <favorited>false</favorited>
+    <truncated>false</truncated>
+    <geo/>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <thumbnail_pic>http://ww3.sinaimg.cn/thumbnail/67b77f5djw6dcnq0gq2y7j.jpg</thumbnail_pic>
+    <bmiddle_pic>http://ww3.sinaimg.cn/bmiddle/67b77f5djw6dcnq0gq2y7j.jpg</bmiddle_pic>
+    <original_pic>http://ww3.sinaimg.cn/large/67b77f5djw6dcnq0gq2y7j.jpg</original_pic>
+    <user>
+      <id>1740078941</id>
+      <screen_name>小城顾氏</screen_name>
+      <name>小城顾氏</name>
+      <province>31</province>
+      <city>12</city>
+      <location>上海 闵行区</location>
+      <description>有着北方大女人情节的南方小女人……</description>
+      <url>http://blog.sina.com.cn/kikkigu</url>
+      <profile_image_url>http://tp2.sinaimg.cn/1740078941/50/1291469276/0</profile_image_url>
+      <domain></domain>
+      <gender>f</gender>
+      <followers_count>11656</followers_count>
+      <friends_count>101</friends_count>
+      <statuses_count>1031</statuses_count>
+      <favourites_count>3</favourites_count>
+      <created_at>Mon May 10 00:00:00 +0800 2010</created_at>
+      <following>false</following>
+      <verified>true</verified>
+      <allow_all_act_msg>false</allow_all_act_msg>
+      <geo_enabled>true</geo_enabled>
+    </user>
+    <annotations/>
+  </status>
+  <status>
+    <created_at>Fri Dec 24 15:04:33 +0800 2010</created_at>
+    <id>4687300857</id>
+    <text>在实际工作中,挑战常常和机遇一同出现。如果不敢迎接挑战,就会让机遇从身边溜走。</text>
+    <source>
+      <a href="http://t.sina.com.cn">新浪微博</a>
+    </source>
+    <favorited>false</favorited>
+    <truncated>false</truncated>
+    <geo/>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <user>
+      <id>1197161814</id>
+      <screen_name>李开复</screen_name>
+      <name>李开复</name>
+      <province>11</province>
+      <city>1000</city>
+      <location>北京</location>
+      <description>创新工场CEO</description>
+      <url>http://blog.sina.com.cn/kaifulee</url>
+      <profile_image_url>http://tp3.sinaimg.cn/1197161814/50/1290146312/1</profile_image_url>
+      <domain>kaifulee</domain>
+      <gender>m</gender>
+      <followers_count>2709052</followers_count>
+      <friends_count>154</friends_count>
+      <statuses_count>1336</statuses_count>
+      <favourites_count>3</favourites_count>
+      <created_at>Fri Aug 28 00:00:00 +0800 2009</created_at>
+      <following>false</following>
+      <verified>true</verified>
+      <allow_all_act_msg>false</allow_all_act_msg>
+      <geo_enabled>true</geo_enabled>
+    </user>
+    <annotations/>
+  </status></statuses>
