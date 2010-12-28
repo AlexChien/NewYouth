@@ -3,7 +3,6 @@ class StatusesController < ApplicationController
   # GET /statuses.xml
   def index
     @statuses = Status.all(:order => "id desc")
-    # @statuses = RemoteStatus.all
     respond_to do |format|
       format.html # index.html.erb
       format.xml  { render :xml => @statuses }
@@ -11,6 +10,7 @@ class StatusesController < ApplicationController
   end
 
   def refresh
+    Status.get_status
     @statuses = Status.all(:order => "id desc")
     redirect_to '/'
   end
