@@ -146,7 +146,7 @@
                   </li>
                 </ul>
                 <ul>
-                  <% @bulltins.each do |post| %>
+                  <% @bulletins.each do |post| %>
                   <li><%= post.content %>  <%= link_to '删除', post, :confirm => '确认删除?', :method => :delete %></li>              
                   <% end %>
                 </ul>

@@ -1,0 +1,20 @@
+<h1>Listing bulletins</h1>
+
+<table>
+  <tr>
+    <th>Content</th>
+  </tr>
+
+<% @bulletins.each do |bulletin| %>
+  <tr>
+    <td><%=h bulletin.content %></td>
+    <td><%= link_to 'Show', bulletin %></td>
+    <td><%= link_to 'Edit', edit_bulletin_path(bulletin) %></td>
+    <td><%= link_to 'Destroy', bulletin, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New bulletin', new_bulletin_path %>

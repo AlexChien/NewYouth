@@ -6,8 +6,8 @@ class StatusesController < ApplicationController
   # GET /statuses.xml
   def index
     @statuses = Status.paginate(:page => params[:page], :per_page => 20, :order => 'id DESC')
-    @bulltin = Bulltin.new
-    @bulltins = Bulltin.all
+    @bulletin = Bulletin.new
+    @bulletins = Bulletin.all
     respond_to do |format|
       format.html # index.html.erb
       format.xml  { render :xml => @statuses }
@@ -17,8 +17,8 @@ class StatusesController < ApplicationController
   def refresh
     Status.get_status
     @statuses = Status.paginate(:page => params[:page], :per_page => 20, :order => 'id DESC')
-    @bulltin = Bulltin.new
-    @bulltins = Bulltin.all    
+    @bulletin = Bulletin.new
+    @bulletins = Bulletin.all    
     redirect_to '/'
   end
 
