@@ -2,19 +2,25 @@
 
 <table>
   <tr>
+    <th>ID</th>
+    <th>User</th>
     <th>Content</th>
   </tr>
 
 <% @feeds.each do |feed| %>
   <tr>
+    <td><%=h feed.id %></td>
+    <td><%=h feed.user %></td>
     <td><%=h feed.content %></td>
+    <% if false %>
     <td><%= link_to 'Show', feed %></td>
     <td><%= link_to 'Edit', edit_feed_path(feed) %></td>
     <td><%= link_to 'Destroy', feed, :confirm => 'Are you sure?', :method => :delete %></td>
+    <% end %>
   </tr>
 <% end %>
 </table>
 
 <br />
 
-<%= link_to 'New feed', new_feed_path %>
+<%#= link_to 'New feed', new_feed_path %>

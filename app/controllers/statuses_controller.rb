@@ -1,9 +1,12 @@
 class StatusesController < ApplicationController
+  
+  before_filter :login_required
+  
   # GET /statuses
   # GET /statuses.xml
   def index
-    @statuses = Status.all(:order => "id desc")
-    # @statuses = RemoteStatus.all
+    @statuses = Status.paginate(:page => params[:page], :per_page => 20, :order => 'id DESC')
+
     respond_to do |format|
       format.html # index.html.erb
       format.xml  { render :xml => @statuses }
@@ -11,6 +14,7 @@ class StatusesController < ApplicationController
   end
 
   def refresh
+    Status.get_status
     @statuses = Status.all(:order => "id desc")
     redirect_to '/'
   end

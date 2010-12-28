@@ -23,8 +23,8 @@ class RemoteStatus
    def self.all
      sina_url = "https://api.t.sina.com.cn/statuses/home_timeline.json?source=1847941150"
      # sina_url = "http://localhost:3000/home_timeline.json?source=1847941150"
-     # result = open(sina_url,"Authorization"=>"Basic #{Base64.b64encode("stainless:123456")}").read 
-     # result = open(sina_url,:http_basic_authentication=>["stainless", "123456"]).read
+     # result = open(sina_url,"Authorization"=>"Basic #{Base64.b64encode("thecity2011@sina.com:123456)}").read 
+     # result = open(sina_url,:http_basic_authentication=>["thecity2011@sina.com:123456"]).read
      result = open(sina_url,:http_basic_authentication=>["thecity2011@sina.com", "123456"]).read
 #      `curl -u thecity2011@sina.com:123456 -d "source=1847941150" http://api.t.sina.com.cn/statuses/home_timeline.xml`
 #      `curl --user thecity2011@sina.com:123456 -d "source=1847941150" http://api.t.sina.com.cn/statuses/home_timeline.xml`
