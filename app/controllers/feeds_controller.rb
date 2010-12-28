@@ -23,6 +23,14 @@ class FeedsController < ApplicationController
       format.xml  { render :xml => @feed }
     end
   end
+  
+  def pool_count
+    @count = Feed.count
+    
+    respond_to do |format|
+      format.js { render :text => @count }
+    end
+  end
 
   # GET /feeds/new
   # GET /feeds/new.xml

@@ -11,7 +11,7 @@ ActionController::Routing::Routes.draw do |map|
 
   map.resources :oauth_consumers,:member=>{:callback=>:get}
 
-  map.resources :feeds
+  map.resources :feeds, :collection => {:pool_count => :get}
 
   map.resources :statuses, :collection => { :refresh  => :get}
 
