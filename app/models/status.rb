@@ -16,6 +16,9 @@ class Status < ActiveRecord::Base
           :remote_created_at => status["created_at"],
           :screen_name       => status["user"]["screen_name"],
           :name              => status["user"]["name"],
+          :domain            => status["user"]["domain"],
+          :profile_image_url => status["user"]["profile_image_url"],
+          :remote_user_id    => status["user"]["id"],
           :text              => status["text"]
         )
       end
