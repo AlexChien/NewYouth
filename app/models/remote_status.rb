@@ -22,6 +22,8 @@ class RemoteStatus
    
    def self.all
      sina_url = "https://api.t.sina.com.cn/statuses/home_timeline.json?source=1847941150"
+     # metions:  @新青年thecity 
+     # sina_url = "https://api.t.sina.com.cn/statuses/mentions.json?source=1847941150"
      # sina_url = "http://localhost:3000/home_timeline.json?source=1847941150"
      # result = open(sina_url,"Authorization"=>"Basic #{Base64.b64encode("thecity2011@sina.com:123456)}").read 
      # result = open(sina_url,:http_basic_authentication=>["thecity2011@sina.com:123456"]).read
