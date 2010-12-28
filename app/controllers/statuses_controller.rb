@@ -5,7 +5,8 @@ class StatusesController < ApplicationController
   # GET /statuses
   # GET /statuses.xml
   def index
-    @statuses = Status.all(:order => "id desc")
+    @statuses = Status.paginate(:page => params[:page], :order => 'created_at DESC')
+
     respond_to do |format|
       format.html # index.html.erb
       format.xml  { render :xml => @statuses }

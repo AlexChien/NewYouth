@@ -3,7 +3,8 @@
   <div>
     <a href="/statuses/refresh" class="newMblog_ts1" style="display:block" id="feed_msg_new">你全部关注的人中有人发了新微博哦，点击查看</a>
   </div>
-
+  <br/>
+  <%= will_paginate @statuses %>
   <!--列表-->
   <ul class="MIB_feed" id="feed_list" isWrite="1">
     <% @statuses.each do |status| %>
@@ -59,6 +60,6 @@
     <% end %>
   </ul>
   <!--/列表-->
-
+  <%= will_paginate @statuses %>
 </div>
 <!--/内容区 -->

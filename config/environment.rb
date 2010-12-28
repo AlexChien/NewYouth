@@ -20,7 +20,8 @@ Rails::Initializer.run do |config|
   # config.gem "sqlite3-ruby", :lib => "sqlite3"
   # config.gem "aws-s3", :lib => "aws/s3"
   config.gem "oauth"
-  config.gem "oauth-plugin"  
+  config.gem "oauth-plugin"
+  config.gem 'will_paginate', :version => '~> 2.3.11'
 
   # Only load the plugins named here, in the order given (default is alphabetical).
   # :all can be used as a placeholder for all plugins not explicitly named
