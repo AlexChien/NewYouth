@@ -1,4 +1,4 @@
-class Createbulletins < ActiveRecord::Migration
+class CreateBulletins < ActiveRecord::Migration
   def self.up
     create_table :bulletins do |t|
       t.string :content
