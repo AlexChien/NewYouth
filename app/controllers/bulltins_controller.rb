@@ -83,7 +83,8 @@ class BulltinsController < ApplicationController
     @bulltin.destroy
 
     respond_to do |format|
-      format.html { redirect_to(bulltins_url) }
+      # format.html { redirect_to(bulltins_url) }
+      format.html { redirect_to("/") }
       format.xml  { head :ok }
     end
   end
