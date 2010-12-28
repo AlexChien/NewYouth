@@ -1,0 +1,16 @@
+<h1>Editing bulltin</h1>
+
+<% form_for(@bulltin) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :content %><br />
+    <%= f.text_field :content %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @bulltin %> |
+<%= link_to 'Back', bulltins_path %>
