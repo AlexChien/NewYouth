@@ -1,0 +1,49 @@
+<script type="text/javascript" charset="utf-8">
+  function post_bulletin(){
+    // document.new_bulletin.submit();
+    var form = document.getElementById("new_bulletin");
+    form.submit();    
+  }
+</script>
+<!--发布区 -->
+<div class="MIB_mbloghead">
+  <div class="MIB_mblogbox">
+    <div class="postWrap">
+      <div class="pngBg">
+        <div class="postOptionBg">
+        </div>
+        <div class="pngGuidBg">
+        </div>
+        <div class="pngAreaBg">
+        </div>
+      </div>
+      <div class="connBg">
+				<div class="postOptionBg" >
+					<div class="OnTit" id="publisher_faces">
+						<span>公告发布区</span>
+					</div>
+	      </div>					        
+<% form_for(@bulletin) do |f| %>
+  <%= f.error_messages %>            
+        <div class="postBtnBg"><!-- 不可点状态<div class="postBtnBg bgColorA_No"> -->
+          <a onclick="post_bulletin();" id="publisher_submit">
+            <span class="bgColorA">
+              <span class="BackG"></span>
+              <span class="BackG1"></span>
+              <span class="BackG2"></span>
+            </span>
+            <span class="bgColorB"></span>
+          </a>
+        </div>
+        <div class="inputarea" style="display:block">
+          <!-- <textarea name="" cols="" rows="" id="publish_editor"></textarea> -->
+          <!-- <%#= f.label :content %><br />           -->
+          <%= f.text_area :content %>
+          <%#= f.submit '发布', :id=>"publisher_submit" %>
+        </div>
+<% end %>
+      </div>
+    </div>
+  </div>
+</div>
+<!--/发布区 -->
