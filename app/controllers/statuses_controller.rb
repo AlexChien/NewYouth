@@ -1,4 +1,7 @@
 class StatusesController < ApplicationController
+  
+  before_filter :login_required
+  
   # GET /statuses
   # GET /statuses.xml
   def index
