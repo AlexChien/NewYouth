@@ -1,6 +1,6 @@
 class BulletinsController < ApplicationController
   
-  before_filter :login_required, :except => [:index]
+  # before_filter :login_required, :except => [:index]
   
   # GET /bulletins
   # GET /bulletins.xml
