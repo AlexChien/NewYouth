@@ -10,7 +10,7 @@ class Status < ActiveRecord::Base
     statuses = RemoteStatus.all
     
     statuses.reverse_each do |status|
-      if latest_status == nil || (status["created_at"] > latest_status.remote_created_at.to_s)
+      if latest_status == nil || (status["created_at"].to_time > latest_status.remote_created_at)
         Status.create(
           :remote_id         => status["id"],
           :remote_created_at => status["created_at"],
