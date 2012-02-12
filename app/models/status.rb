@@ -2,21 +2,22 @@
 
 
 class Status < ActiveRecord::Base
-  
 
-  def self.get_status    
+
+  def self.get_status
     latest_status = Status.last
-    
+
     statuses = RemoteStatus.all
-    
+
     statuses.reverse_each do |status|
-      if latest_status == nil || (status["created_at"].to_time > latest_status.remote_created_at)
+      if latest_status == nil || (status["created_at"].to_i > latest_status.remote_created_at.to_i)
         Status.create(
           :remote_id         => status["id"],
-          :remote_created_at => status["created_at"],
+          :remote_created_at => Time.at(status["created_at"]),
           :screen_name       => status["user"]["screen_name"],
           :name              => status["user"]["name"],
-          :domain            => status["user"]["domain"],
+          # :domain            => status["user"]["domain"],
+          :domain            => "yishurenwen",
           :profile_image_url => status["user"]["profile_image_url"],
           :remote_user_id    => status["user"]["id"],
           :text              => status["text"]
@@ -25,6 +26,6 @@ class Status < ActiveRecord::Base
     end
 
   end
-  
-  
+
+
 end
