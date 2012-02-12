@@ -1,11 +1,11 @@
 class StatusesController < ApplicationController
-  
+
   before_filter :login_required
-  
+
   # GET /statuses
   # GET /statuses.xml
   def index
-    @statuses = Status.paginate(:page => params[:page], :per_page => 20, :order => 'id DESC')
+    @statuses = Status.find(:all, :conditions => ["domain = ?","yishurenwen"]).paginate(:page => params[:page], :per_page => 20, :order => 'id DESC')
     @bulletin = Bulletin.new
     @bulletins = Bulletin.all
     respond_to do |format|
@@ -18,7 +18,7 @@ class StatusesController < ApplicationController
     Status.get_status
     @statuses = Status.paginate(:page => params[:page], :per_page => 20, :order => 'id DESC')
     @bulletin = Bulletin.new
-    @bulletins = Bulletin.all    
+    @bulletins = Bulletin.all
     redirect_to '/'
   end
 
