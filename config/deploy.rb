@@ -14,7 +14,7 @@ set :use_sudo, false
 set :rails_env, "production"
 
 # NOTE: for some reason Capistrano requires you to have both the public and
-# the private key in the same folder, the public key should have the 
+# the private key in the same folder, the public key should have the
 # extension ".pub".
 ssh_options[:keys] = ["#{ENV['HOME']}/.ssh/id_rsa"]
 
@@ -49,7 +49,7 @@ set :rails_env, "production"
 # Your EC2 instances. Use the ec2-xxx....amazonaws.com hostname, not
 # any other name (in case you have your own DNS alias) or it won't
 # be able to resolve to the internal IP address.
-set :domain, "202.109.80.184"
+set :domain, "180.153.142.125"
 role :app, domain
 role :web, domain
 #role :product, "192.168.1.1"
@@ -68,55 +68,55 @@ namespace :deploy do
 
   # 覆盖capistrano默认行为，添加thin的启动停止命令
   # desc "用应用下的config/thin.yml用thin启动应用"
-  # %w(start stop restart).each do |action| 
-  #   desc "#{action} the Thin processes"  
+  # %w(start stop restart).each do |action|
+  #   desc "#{action} the Thin processes"
   #   task action.to_sym do
   #     find_and_execute_task("thin:#{action}")
   #   end
-  # end  
-  
-  desc "Generate database.yml and Create asset packages for production, minify and compress js and css files" 
+  # end
+
+  desc "Generate database.yml and Create asset packages for production, minify and compress js and css files"
   after "deploy:update_code", :roles => [:web] do
     database_yml
     thin_yml
     app_config
   end
-  
+
   # add soft link script for deploy
   desc "Symlink the upload directories"
   after "deploy:symlink", :roles => [:web] do
     ## create link for shared assets
     # run "#{release_path}/script/relink.sh #{shared_path}/assets #{release_path}/public/images/assets #{previous_release} #{release_name} assets"
-    ## create link for mongrel cluster 
-    
+    ## create link for mongrel cluster
+
     # backup_db
     migrate
   end
-  
+
   # customized tasks
   desc "Backup Mysql"
   task :backup_db, :roles => [:web] do
   run "#{shared_path}/script/mysql_backup.pl NewYouth_production:utf8 #{releases.last} "
   end
- 
+
   desc "Generate Production database.yml"
   task :database_yml, :roles => [:web] do
-    db_config = "#{shared_path}/config/database.yml.production" 
+    db_config = "#{shared_path}/config/database.yml.production"
     run "cp #{db_config} #{release_path}/config/database.yml"
   end
 
   desc "Generate Production thin.yml"
   task :thin_yml, :roles => [:web] do
-    thin_config = "#{shared_path}/config/thin.yml.production" 
+    thin_config = "#{shared_path}/config/thin.yml.production"
     run "cp #{thin_config} #{release_path}/config/thin.yml"
-  end  
+  end
 
   desc "Generate app_config.yml"
   task :app_config, :roles => [:web] do
-    app_config = "#{shared_path}/config/app_config.yml.production" 
+    app_config = "#{shared_path}/config/app_config.yml.production"
     run "cp #{app_config} #{release_path}/config/app_config.yml"
   end
-  
+
   # more info about automatially update and incoporate REASON and UNTIL variable
   # check this out: http://www.letrails.cn/archives/customize-capistrano-maintenance-page
   namespace :web do
@@ -130,13 +130,13 @@ namespace :deploy do
 end
 
 # 控制thin
-namespace :thin do  
+namespace :thin do
   desc "用应用下的config/thin.yml用thin启动应用"
-  %w(start stop restart).each do |action| 
-  desc "#{action} the app's Thin Cluster"  
-    task action.to_sym, :roles => :app do  
-      # run "thin #{action} -c #{deploy_to}/current -C #{deploy_to}/current/config/thin.yml" 
-      run "thin #{action} -C #{shared_path}/config/thin.yml.production" 
+  %w(start stop restart).each do |action|
+  desc "#{action} the app's Thin Cluster"
+    task action.to_sym, :roles => :app do
+      # run "thin #{action} -c #{deploy_to}/current -C #{deploy_to}/current/config/thin.yml"
+      run "thin #{action} -C #{shared_path}/config/thin.yml.production"
     end
   end
 end
@@ -146,11 +146,11 @@ end
 #namespace :develop do
 #  desc "Set pre_product ENV"
 #  task :settings, :roles => [:pre_product] do
-#    set :rails_env,   "development" 
+#    set :rails_env,   "development"
 #  end
 #  desc "Test say hellp"
 #  task :hello, :roles => [:pre_product] do
-#    run "echo hello" 
+#    run "echo hello"
 #  end
   ##run task##
   #########
