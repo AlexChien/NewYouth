@@ -1,20 +1,20 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<title>新青年新浪微博电视播放</title>
-		<meta http-equiv=X-UA-Compatible content=IE=EmulateIE7 />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>vPlus微博管理播放系统</title>
+    <meta http-equiv=X-UA-Compatible content=IE=EmulateIE7 />
     <meta name="msapplication-tooltip" content="新浪微博" />
     <meta name="msapplication-window" content="width=1024;height=768" />
     <meta name="msapplication-task" content="name=新浪微博; action-uri=/; icon-uri=http://img1.t.sinajs.cn/t3/style/images/common/favicon/home.ico" />
     <meta name="msapplication-task" content="name=我的微博; action-uri=/profile/1901642024; icon-uri=http://img1.t.sinajs.cn/t3/style/images/common/favicon/mypage.ico" />
     <meta name="msapplication-task" content="name=微博广场; action-uri=/pub/?source=toptray; icon-uri=http://img1.t.sinajs.cn/t3/style/images/common/favicon/square.ico" />
     <meta content="#FF3300" name="msapplication-navbutton-color" />
-    <meta name="msapplication-starturl" content="./" /> 
+    <meta name="msapplication-starturl" content="./" />
     <link href="http://img.t.sinajs.cn/t3/style/css/common/index.css?version=20101227183305" type="text/css" rel="stylesheet" />
     <link id="skin_transformers" href="http://img1.t.sinajs.cn/t3/skin/skin_001/skin.css?version=20101227183305" type="text/css" rel="stylesheet" />
-	<script src="javascripts/jquery.js" type="text/javascript" charset="utf-8"></script>
-  
+  <script src="javascripts/jquery.js" type="text/javascript" charset="utf-8"></script>
+
     <style type="text/css" media="screen">
 .pagination {
   background: white;
@@ -60,7 +60,7 @@
     height: 1%; }
   *:first-child+html .pagination {
     overflow: hidden; }
-     .right_nav ul li {height:auto;padding-right: 10px;width: 160px;} 
+     .right_nav ul li {height:auto;padding-right: 10px;width: 160px;}
 .header{ display:none; }
     </style>
 </head>
@@ -73,7 +73,7 @@
           <a class="linklogo" href="http://t.sina.com.cn"></a>
         </div> -->
 
-        <div id="m_keyword_tip" class="resultTip" style="display:none"></div> 
+        <div id="m_keyword_tip" class="resultTip" style="display:none"></div>
         <a href="http://t.sina.com.cn/zt/2010weixiaoshuo" class="weixiaos_link">来参加微小说大赛吧，近30万大奖等你来拿！</a>
       </div>
 
@@ -94,15 +94,15 @@
                   <div class="lf">
                     <p class="font_14">
                       <!-- <a href="http://t.sina.com.cn/1901642024/profile">新青年thecity</a> -->
-                      <span>新青年thecity</span>
+                      <span>欢迎你</span>
                       <br/>
                       <a href="/logout">注销</a>
                     </p>
                     <p><em>上海</em><em>浦东新区</em></p>
                   </div>
                 </div>
-                
-                <!--                 
+
+                <!--
                 <div class="user_atten MIB_linedot">
                   <ul id="profile_following_follower_update">
                     <li id="pop_2" class="MIB_line_r">
@@ -125,10 +125,10 @@
               <div id="medal_box" class="newcolr"></div>
               <!--/个人信息-->
               <!--右侧菜单-->
-              <!-- 
+              <!--
               <div class="right_nav">
                 <ul>
-                  <li id="li_myprofile" class="cur MIB_txtar"> 
+                  <li id="li_myprofile" class="cur MIB_txtar">
                     <a href="http://t.sina.com.cn/1901642024">我的首页</a>
                   </li>
                 </ul>
@@ -137,25 +137,25 @@
                   <li><a href="http://t.sina.com.cn/comments">我的评论</a></li>
                   <li><a href="http://t.sina.com.cn/favs">我的收藏</a></li>
                 </ul>
-              </div> 
+              </div>
               -->
               <!--/右侧菜单-->
-              
+
               <!-- 公告列表 -->
               <div class="right_nav">
                 <ul>
-                  <li id="li_myprofile" class="cur MIB_txtar"> 
+                  <li id="li_myprofile" class="cur MIB_txtar">
                     <span>公告列表</span>
                   </li>
                 </ul>
                 <ul>
                   <% @bulletins.each do |post| %>
-                  <li><%= post.content %>  <%= link_to '删除', post, :confirm => '确认删除?', :method => :delete %></li>              
+                  <li><%= post.content %>  <%= link_to '删除', post, :confirm => '确认删除?', :method => :delete %></li>
                   <% end %>
                 </ul>
               </div>
               <!-- /公告列表 -->
-              
+
             </div>
             <!--/右栏内容 -->
 
