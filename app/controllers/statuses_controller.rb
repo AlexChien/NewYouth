@@ -5,7 +5,7 @@ class StatusesController < ApplicationController
   # GET /statuses
   # GET /statuses.xml
   def index
-    @statuses = Status.find(:all, :conditions => ["domain = ?","yishurenwen"]).paginate(:page => params[:page], :per_page => 20, :order => 'id DESC')
+    @statuses = Status.find(:all, :conditions => ["domain = ?","thevoice"]).paginate(:page => params[:page], :per_page => 20, :order => 'id DESC')
     @bulletin = Bulletin.new
     @bulletins = Bulletin.all
     respond_to do |format|

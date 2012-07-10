@@ -26,7 +26,8 @@ class RemoteStatus
               aid = 0, format = "json")
     wbtn_url = "#{interface}.#{format}?source=#{appkey}&aid=#{aid}"
     result = open(wbtn_url,
-                  :http_basic_authentication => ["yishurenwen","yishurenwen112358"]).read
+                  :http_basic_authentication => ["aldogbites","alexgem"]).read
+                  # :http_basic_authentication => ["yishurenwen","yishurenwen112358"]).read
     return JSON.parse(result)['data']
   end
 
