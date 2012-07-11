@@ -1,0 +1,36 @@
+<%
+user_url = "http://t.sina.com.cn/" + (status.domain.blank? ? status.remote_user_id.to_s : status.domain)
+user_screen_name = status.screen_name
+%>
+<li class="MIB_linedot_l">
+  <div class="head_pic">
+    <a href="<%= user_url %>" >
+      <img title="<%= user_screen_name %>" uid="<%= status.remote_user_id %>" imgtype="head" src="<%= status.profile_image_url %>"/ >
+    </a>
+  </div>
+  <div class="MIB_feed_c">
+    <p class="sms" type="1">
+      <a href="<%= user_url %>" title="<%= user_screen_name %>"><%= user_screen_name %></a>：
+      <%= status.text %>
+    </p>
+
+    <div class="feed_att MIB_linkbl MIB_txtbl">
+      <div class="lf">
+        <cite>
+          <strong><%= status.remote_created_at.to_s(:db) %></strong>
+        </cite>
+      </div>
+      <div class="rt">
+        <% if status.state.nil? %>
+          <%= link_to '选择并提交审核', submit_status_path(status.id), :method => :put %>
+          <%= link_to '发送到电视屏幕', status_path(status.id), :method => :put if current_user.privileged? %>
+        <% elsif status.state == 'auditing' %>
+          <%= link_to '发送到电视屏幕', status_path(status.id), :method => :put if current_user.privileged? %>
+        <% elsif status.state == 'sent' %>
+          <strong>已发送到电视屏幕</strong>
+        <% end %>
+
+      </div>
+    </div>
+  </div>
+</li>

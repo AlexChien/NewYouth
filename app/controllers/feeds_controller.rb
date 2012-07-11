@@ -1,11 +1,11 @@
 class FeedsController < ApplicationController
   # GET /feeds
   # GET /feeds.xml
-  def index  
+  def index
     if params[:id]
       Feed.connection.execute("delete from feeds where id <= #{params[:id]};")
     end
-    @feeds = Feed.all(:limit => 20)
+    @feeds = Feed.all(:limit => 5)
     respond_to do |format|
       format.html # index.html.erb
       # format.xml  { render :xml => @feeds }
@@ -23,10 +23,18 @@ class FeedsController < ApplicationController
       format.xml  { render :xml => @feed }
     end
   end
-  
+
   def pool_count
     @count = Feed.count
-    
+
+    respond_to do |format|
+      format.js { render :text => @count }
+    end
+  end
+
+  def audit_count
+    @count = Status.count(:conditions => ["domain = 'thevoice' and state = 'auditing'"])
+
     respond_to do |format|
       format.js { render :text => @count }
     end

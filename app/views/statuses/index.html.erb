@@ -2,79 +2,45 @@
 
 <script type="text/javascript" charset="utf-8">
 function myrefresh(){
-	$("#pool_count_num").load("/feeds/pool_count")
+  $("#audit_count").load("/feeds/audit_count");
+  $("#sent_count").load("/feeds/pool_count");
 }
 
 myrefresh();
-setInterval(myrefresh,5000); //指定6秒刷新一次  
+setInterval(myrefresh,5000); //指定6秒刷新一次
 </script>
 
+<!-- 导航 -->
+<div class="status_type">
+  <ul>
+    <li><a href="/?type=raw" class="<%= current_class('raw') %>">最新微博</a></li>
+    <li><a href="/?type=auditing" class="<%= current_class('auditing') %>">待审核(<span id="audit_count">x</span>)</a></li>
+    <li><a href="/?type=sent" class="<%= current_class('sent') %>">已审核/待播放(<span id="sent_count">x</span>)</a></li>
+  </ul>
+</div>
+<!-- 导航结束 -->
 <!--内容区 -->
 <div class="MIB_mbloglist">
-	<div>
-		<a href="/statuses/refresh" class="newMblog_ts1" style="display:block" id="feed_msg_new">立即获取最新微博消息</a>
-	</div>
-	<div id="pool_count" style="text-align:center;margin:5px auto;">
-		当前等待播放消息数量： <span id="pool_count_num" style="color:red;">获取中</span>
-	</div>
-	<br/>
+  <% if @type == 'raw' %>
+  <div>
+    <a href="/statuses/refresh" class="newMblog_ts1" style="display:block" id="feed_msg_new">立即获取最新微博消息</a>
+  </div>
+  <% end %>
 
-	<%= will_paginate @statuses %>
-	<!--列表-->
-	<ul class="MIB_feed" id="feed_list" isWrite="1">
-		<% @statuses.each do |status| %>
-		<% 
-		user_url = "http://t.sina.com.cn/" + (status.domain.blank? ? status.remote_user_id.to_s : status.domain)
-		user_screen_name = status.screen_name
-		%>
-		<li class="MIB_linedot_l">
-			<div class="head_pic">
-				<a href="<%= user_url %>" >
-					<img title="<%= user_screen_name %>" uid="<%= status.remote_user_id %>" imgtype="head" src="<%= status.profile_image_url %>"/ >
-				</a>
-			</div>
-			<div class="MIB_feed_c">
-				<p class="sms" type="1">
-					<a href="<%= user_url %>" title="<%= user_screen_name %>"><%= user_screen_name %></a>：
-					<%= status.text %>
-				</p>
+  <!-- <div id="pool_count" style="text-align:center;margin:5px auto;">
+    当前等待播放消息数量： <span id="pool_count_num" style="color:red;">获取中</span>
+  </div> -->
+  <br/>
 
-				<div class="feed_att MIB_linkbl MIB_txtbl">
-					<div class="lf">
-						<cite>
-							<!-- <a href="http://t.sina.com.cn/1708783547/5KC59uzv1T6"><strong>今天 09:21</strong></a> -->
-							<strong><%= status.remote_created_at.to_s(:db) %></strong>
-						</cite>
-						<!-- <strong lang="CL1006">来自</strong>新浪微博 -->
-					</div>
-					<div class="rt">
-						<!-- <
-						a href="javascript:void(0);"  lastforwarder="1708783547" lastforwardername="猴子feeling" initbloger="0"  initblogername="" onclick="">
-						<strong lang="CD0023">转发</strong>
-						<strong type="rttCount"></strong>
-						</a> 
-						-->
-						<!-- 
-						<span class="MIB_line_l">|</span>
-						<a href="javascript:void(0);" onclick=""><strong lang="CL1003">收藏</strong></a>
-						<span class="MIB_line_l">|</span> 
-						-->
-						<!-- <a  href="javascript:void(0);" onclick="">
-						<strong lang="CL1004">评论</strong>
-						<strong type="commtCount"></strong>
-						</a>   -->            
-						<% unless status.state %>
-						<a><%= link_to '发送到电视屏幕', status_path(status.id), :method => :put %></a>
-						<% else %>
-						<strong>已发送到电视屏幕</strong>
-						<% end %>            
-					</div>
-				</div>
-			</div>
-		</li>
-		<% end %>
-	</ul>
-	<!--/列表-->
-	<%= will_paginate @statuses %>
+  <%= will_paginate @statuses %>
+  <!--列表-->
+  <ul class="MIB_feed" id="feed_list" isWrite="1">
+    <% @statuses.each do |status| %>
+
+    <%= render :partial => 'weibo_item', :locals => {:status => status} %>
+    <% end %>
+  </ul>
+  <!--/列表-->
+  <%= will_paginate @statuses %>
 </div>
 <!--/内容区 -->

@@ -5,7 +5,18 @@ class StatusesController < ApplicationController
   # GET /statuses
   # GET /statuses.xml
   def index
-    @statuses = Status.find(:all, :conditions => ["domain = ?","thevoice"], :order => 'id DESC').paginate(:page => params[:page], :per_page => 20)
+    @type = params[:type] || 'raw'
+      if @type == 'raw'
+        condition = ["domain = ? and state is null", "thevoice"]
+      elsif @type == 'auditing'
+        condition = ["domain = ? and state = ?", "thevoice", 'auditing']
+      elsif @type == 'sent'
+        condition = ["domain = ? and state = ?", "thevoice", 'sent']
+      else
+        condition = ["domain = ?","thevoice"]
+      end
+
+    @statuses = Status.find(:all, :conditions => condition, :order => 'id DESC').paginate(:page => params[:page], :per_page => 20)
     @bulletin = Bulletin.new
     @bulletins = Bulletin.all
     respond_to do |format|
@@ -71,19 +82,34 @@ class StatusesController < ApplicationController
   def update
     @status = Status.find(params[:id])
     @status.state = 'sent'
-    @status.save
     Feed.create(
       :user => @status.screen_name,
       :content => @status.text
     )
     respond_to do |format|
-      if @status.update_attributes(params[:status])
+      if @status.save
         # format.html { redirect_to(@status, :notice => 'Status was successfully updated.') }
-        format.html { redirect_to('/', :notice => "Status  #{@status.text} was successfully sent to screen.") }
+        format.html { redirect_to('/?type=auditing', :notice => "消息 #{@status.text} 已成功发送至播放池，等待播放.") }
         format.xml  { head :ok }
       else
         # format.html { render :action => "edit" }
-        format.html { redirect_to('/', :error => "Status #{@status.text} sent to screen fail.") }
+        format.html { redirect_to('/', :error => "消息 #{@status.text} 无法投入播放池.") }
+        format.xml  { render :xml => @status.errors, :status => :unprocessable_entity }
+      end
+    end
+  end
+
+  def submit
+    @status = Status.find(params[:id])
+    @status.state = 'auditing'
+
+    respond_to do |format|
+      if @status.save
+        format.html { redirect_to('/', :notice => "消息 #{@status.text} 已成功送审.") }
+        format.xml  { head :ok }
+      else
+        # format.html { render :action => "edit" }
+        format.html { redirect_to('/', :error => "消息 #{@status.text} 送审失败。") }
         format.xml  { render :xml => @status.errors, :status => :unprocessable_entity }
       end
     end
