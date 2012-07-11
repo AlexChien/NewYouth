@@ -40,6 +40,14 @@ class FeedsController < ApplicationController
     end
   end
 
+  def sent_count
+    @count = Status.count(:conditions => ["domain = 'thevoice' and state = 'sent'"])
+
+    respond_to do |format|
+      format.js { render :text => @count }
+    end
+  end
+
   # GET /feeds/new
   # GET /feeds/new.xml
   def new

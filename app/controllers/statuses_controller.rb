@@ -10,6 +10,8 @@ class StatusesController < ApplicationController
         condition = ["domain = ? and state is null", "thevoice"]
       elsif @type == 'auditing'
         condition = ["domain = ? and state = ?", "thevoice", 'auditing']
+      elsif @type == 'pool'
+        condition = ["domain = ? and state = ? and id in (?)", "thevoice", 'sent', Feed.all.map(&:status_id)]
       elsif @type == 'sent'
         condition = ["domain = ? and state = ?", "thevoice", 'sent']
       else
@@ -84,7 +86,8 @@ class StatusesController < ApplicationController
     @status.state = 'sent'
     Feed.create(
       :user => @status.screen_name,
-      :content => @status.text
+      :content => @status.text,
+      :status_id => @status.id
     )
     respond_to do |format|
       if @status.save

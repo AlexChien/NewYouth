@@ -3,11 +3,12 @@
 <script type="text/javascript" charset="utf-8">
 function myrefresh(){
   $("#audit_count").load("/feeds/audit_count");
-  $("#sent_count").load("/feeds/pool_count");
+  $("#sent_count").load("/feeds/sent_count");
+  $("#pool_count").load("/feeds/pool_count");
 }
 $(function(){
   myrefresh();
-  setInterval(myrefresh,5000); //指定6秒刷新一次  
+  setInterval(myrefresh,5000); //指定6秒刷新一次
 });
 </script>
 
@@ -16,7 +17,8 @@ $(function(){
   <ul>
     <li><a href="/?type=raw" class="<%= current_class('raw') %>">最新微博</a></li>
     <li><a href="/?type=auditing" class="<%= current_class('auditing') %>">待审核(<span id="audit_count">x</span>)</a></li>
-    <li><a href="/?type=sent" class="<%= current_class('sent') %>">已审核/待播放(<span id="sent_count">x</span>)</a></li>
+    <li><a href="/?type=pool" class="<%= current_class('pool') %>">已审核/待播放(<span id="pool_count">x</span>)</a></li>
+    <li><a href="/?type=sent" class="<%= current_class('sent') %>">播放历史(<span id="sent_count">x</span>)</a></li>
   </ul>
 </div>
 <!-- 导航结束 -->
