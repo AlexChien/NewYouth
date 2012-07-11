@@ -5,9 +5,10 @@ function myrefresh(){
   $("#audit_count").load("/feeds/audit_count");
   $("#sent_count").load("/feeds/pool_count");
 }
-
-myrefresh();
-setInterval(myrefresh,5000); //指定6秒刷新一次
+$(function(){
+  myrefresh();
+  setInterval(myrefresh,5000); //指定6秒刷新一次  
+});
 </script>
 
 <!-- 导航 -->
